@@ -1,0 +1,37 @@
+.yellow{
+    color: yellow;
+}
+
+#greycol{
+    color: gray;
+}
+div+h3+p{
+    color: green;
+}
+h3:first-child{
+    color: pink;
+}
+.text-box>div>p{
+    color: red;
+}
+.wrapper {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+li:first-child:hover{
+    color: brown;
+}
+li::nth-child(-n+2):focus{
+    color: cadetblue;
+}
+li:nth-child(3):disabled{
+    color: chocolate;
+}
+li:empty:link{
+    color: darkblue;
+}
+li:last-child:checked{
+    color: burlywood;
+}
